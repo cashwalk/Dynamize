@@ -15,6 +15,10 @@
     "nodejs",
     "object relational mapper"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cashwalk/dynamize"
+  },
   "author": "Sangbeom Han <uronly14me@gmail.com>",
   "license": "MIT",
   "dependencies": {
