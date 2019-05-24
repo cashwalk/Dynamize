@@ -1,0 +1,23 @@
+{
+  "name": "dynamize",
+  "version": "1.0.0",
+  "description": "DynamoDB ORM for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "keywords": [
+    "dynamodb",
+    "orm",
+    "nodejs",
+    "object relational mapper"
+  ],
+  "author": "Sangbeom Han <mitchell@cashwalk.io>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.460.0"
+  }
+}

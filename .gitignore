@@ -1,0 +1,13 @@
+*.swp
+.idea
+.DS_STORE
+npm-debug.log
+
+
+*.sublime*
+package-lock.json
+yarn.lock
+
+.vscode/
+esdoc
+node_modules
