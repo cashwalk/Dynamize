@@ -15,7 +15,7 @@
     "nodejs",
     "object relational mapper"
   ],
-  "author": "Sangbeom Han <mitchell@cashwalk.io>",
+  "author": "Sangbeom Han <uronly14me@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.460.0"
