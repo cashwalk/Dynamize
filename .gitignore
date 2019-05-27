@@ -6,7 +6,6 @@ npm-debug.log
 
 *.sublime*
 package-lock.json
-yarn.lock
 
 .vscode/
 esdoc
