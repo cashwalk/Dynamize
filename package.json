@@ -4,7 +4,8 @@
   "description": "DynamoDB ORM for NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test-watch": "yarn test --watch"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -23,5 +24,10 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.460.0"
+  },
+  "devDependencies": {
+    "dynamodb-local": "^0.0.26",
+    "jest": "^24.8.0",
+    "kill-port": "^1.5.0"
   }
 }
