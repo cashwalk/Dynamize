@@ -1,6 +1,6 @@
 {
   "name": "dynamize",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "DynamoDB ORM for NodeJS",
   "main": "index.js",
   "scripts": {
