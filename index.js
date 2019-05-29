@@ -1,6 +1,5 @@
 'use strict';
 
-
 /**
   * The entry point.
   *
