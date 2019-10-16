@@ -23,9 +23,10 @@
   "author": "Sangbeom Han <uronly14me@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.460.0"
+    "aws-sdk": "^2.550.0"
   },
   "devDependencies": {
+    "@shelf/jest-dynamodb": "^1.4.1",
     "dynamodb-local": "^0.0.26",
     "jest": "^24.8.0",
     "kill-port": "^1.5.0"
