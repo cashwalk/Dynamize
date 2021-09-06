@@ -10,4 +10,4 @@ $ yarn add dynamize
 
 ## Usage Guide
 
-[Document](doc/README.md)
+[Document for Usage Guide](doc/README.md)
