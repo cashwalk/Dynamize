@@ -9,9 +9,13 @@
 [Official Paper](http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf)
 
 ## Example Code
+For easy understanding, we will see an example using the `Event Log Table`.
+
 [Example Repository](https://github.com/shoveling-pig/dynamize-example)
 
 ## Exmaple Directory Structure
+The directory structure of the example code follows [this repository](https://github.com/goldbergyoni/nodebestpractices).
+
 ```bash
 ├─app
 │  ├─childProcess
@@ -31,6 +35,8 @@
 ```
 
 ## Initiate Dynamize
+First of all, you need to initialize Dynamize using your AWS account.
+
 This code is in the `/libs/aws.js` file.
 
 ```js
@@ -69,6 +75,8 @@ exports.docClient = docClient;
 ```
 
 ## Define Table Schemas
+And you have to define the schemas of the tables to store the data.
+
 This code is in the `/app/models/dynamodb/schema/EventLogs.js` file.
 ```js
 'use strict';
@@ -131,6 +139,8 @@ ddb.createTable(params, (err, data) => {
 module.exports = params;
 ```
 
+The following codes make it easy to use the schemas defined above.
+
 This code is in the `/app/models/dynamodb/schema/index.js` file.
 ```js
 'use strict';
@@ -166,6 +176,8 @@ module.exports = dynamize.models;
 ```
 
 ## Create Tables
+After defining the schema, you can create tables in DynamoDB using the schema.
+
 This code is in the `/app/index.js` file.
 ```js
 const fs = require('fs');
@@ -186,6 +198,7 @@ require('./childProcess');
 ```
 
 And you can check the tables using the following code.
+
 ```js
 const { dynamize } = require('./dynamize');
 
@@ -194,6 +207,8 @@ console.log(tables);
 ```
 
 ## Basic Operations
+If all the above steps are completed, you can perform the following operations through Dynamize.
+
 This code is in the `/app/components/v1/event/model/dynamodb/eventLog.js` file.
 ```js
 'use strict';
