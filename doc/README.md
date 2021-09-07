@@ -10,7 +10,23 @@
 [Example Repository](https://github.com/shoveling-pig/dynamize-example)
 
 ## Directory Tree
-(TBD)
+```bash
+├─app
+│  ├─childProcess
+│  ├─components
+│  │  └─v1
+│  │      └─event
+│  │          ├─controller       
+│  │          ├─model
+│  │          │  └─dynamodb      
+│  │          ├─route
+│  │          └─service
+│  ├─models
+│  │  └─dynamodb
+│  │      └─schema
+│  └─routes
+├─libs
+```
 
 ## Define Dynamize
 This code is in the `aws.js` file.
