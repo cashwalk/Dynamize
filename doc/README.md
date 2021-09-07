@@ -10,7 +10,7 @@
 [Example Repository](https://github.com/shoveling-pig/dynamize-example)
 
 ## Define Dynamize
-`aws.js`
+This code is in the `aws.js` file.
 
 ```js
 'use strict';
