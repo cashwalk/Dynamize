@@ -13,35 +13,7 @@ Dynamize is a promise-based Node.js ORM for DynamoDB inspired by Sequelize. You 
 
 ## Define Dynamize
 ---
-`aws.js`
-
-```js
-'use strict';
-
-const AWS = require('aws-sdk');
-const https = require('https');
-const { Dynamize } = require('dynamize');
-
-const agent = new https.Agent({
-  maxSocket: 256,
-  keepAlive: true,
-  rejectUnauthorized: true,
-});
-
-const dynamize = new Dynamize({
-  region: 'YourAWSRegion',
-  httpOptions: { agent },
-  accessKeyId: 'YourAWSAccessKeyId',
-  secretAccessKey: 'YourAWSSecretAccessKey',
-});
-
-const ddb = new AWS.DynamoDB();
-const doc = new AWS.DynamoDB.DocumentClient();
-
-exports.dynamize = dynamize;
-exports.ddb = ddb;
-exports.docClient = doc;
-```
+(TBD)
 
 ## Define Table
 ---
