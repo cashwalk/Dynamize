@@ -1,4 +1,6 @@
 # Document for Usage Guide
+
+## What is Dynamize?
 > Dynamize is a promise-based Node.js ORM for DynamoDB inspired by Sequelize. You can manage most features in DynamoDB with Dynamize.
 
 ## What is DynamoDB?
