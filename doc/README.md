@@ -183,6 +183,14 @@ if (process.env.MakeTable) {
 require('./childProcess');
 ```
 
+And you can check the tables using the following code.
+```js
+const { dynamize } = require('./dynamize');
+
+const tables = await dynamize.showTables();
+console.log(tables);
+```
+
 ## Basic Operations
 This code is in the `/app/components/v1/event/model/dynamodb/eventLog.js` file.
 ```js
