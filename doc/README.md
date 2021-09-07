@@ -4,7 +4,7 @@
 > Dynamize is a `promise-based Node.js ORM for DynamoDB` inspired by [Sequelize](http://sequelize.org/). You can manage most features in DynamoDB with Dynamize.
 
 ## What is DynamoDB?
-> Amazon DynamoDB is a key-value and document database that delivers single-digit millisecond performance at any scale.
+> Amazon DynamoDB is a `key-value and document database` that delivers single-digit millisecond performance at any scale.
 
 [Official Paper](http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf)
 
