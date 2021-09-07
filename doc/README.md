@@ -4,7 +4,7 @@
 ## What is DynamoDB?
 > Amazon DynamoDB is a key-value and document database that delivers single-digit millisecond performance at any scale.
 
-[Related Paper](http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf)
+[Official Paper](http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf)
 
 ## Example Code for Dynamize
 [Example Repository](https://github.com/shoveling-pig/dynamize-example)
