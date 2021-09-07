@@ -6,10 +6,10 @@
 
 [Official Paper](http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf)
 
-## Example Code for Dynamize
+## Example Code
 [Example Repository](https://github.com/shoveling-pig/dynamize-example)
 
-## Directory Tree
+## Exmaple Directory Structure
 ```bash
 ├─app
 │  ├─childProcess
