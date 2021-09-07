@@ -9,6 +9,9 @@
 ## Example Code for Dynamize
 [Example Repository](https://github.com/shoveling-pig/dynamize-example)
 
+## Directory Structure
+
+
 ## Define Dynamize
 This code is in the `aws.js` file.
 
