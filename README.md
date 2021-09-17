@@ -7,3 +7,7 @@ Dynamize is a promise-based Node.js ORM for DynamoDB inspired by Sequelize. You 
 ```bash
 $ yarn add dynamize
 ```
+
+## Usage Guide
+
+[Document for Usage Guide](doc/README.md)
